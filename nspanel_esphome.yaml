@@ -75,7 +75,6 @@ web_server:
 
 ##### OTA PASSWORD #####
 ota:
-  password: ${wifi_password}
   ##### advanced config - change to use ota_password #####
   # password: ${ota_password}
   safe_mode: true
@@ -104,7 +103,7 @@ rtttl:
 uart:
   tx_pin: 16
   rx_pin: 17
-  baud_rate: 9600 #115200
+  baud_rate: 115200
   id: tf_uart
 
 ###### REBOOT BUTTON #####
