@@ -76,7 +76,7 @@ web_server:
 ##### OTA PASSWORD #####
 ota:
   ##### advanced config - change to use ota_password #####
-  # password: ${ota_password}
+  password: ${wifi_password}
   safe_mode: true
   reboot_timeout: 3min
   num_attempts: 3
